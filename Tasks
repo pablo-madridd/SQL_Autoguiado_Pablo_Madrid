@@ -16,7 +16,7 @@ FROM rating;
 #### Find the average prices grouped by genre within the rating table.
 
 SELECT genre, AVG(price)
-FROM(rating)
+FROM rating
 GROUP BY genre;
 
 
