@@ -4,12 +4,16 @@
 SELECT SUM(price)
 FROM rating;
 
+Resultado -> 11.97
+
 
 # 2
 #### Find the maximum value of total_ratings of all of the applications within the rating table.
 
 SELECT MAX(total_ratings)
 FROM rating;
+
+Resultado -> 4.9
 
 
 # 3
@@ -19,4 +23,6 @@ SELECT genre, AVG(price)
 FROM rating
 GROUP BY genre;
 
+Resultado ->  Books = 1.990000
+              Games = 4.990000
 
