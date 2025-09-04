@@ -1,3 +1,3 @@
-# SQL_Autoguiado_Pablo_Madrid \
+# SQL_Autoguiado_Pablo_Madrid /
 
 Prueba de SQL - Prework
